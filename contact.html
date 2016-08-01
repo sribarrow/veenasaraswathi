@@ -1,0 +1,54 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">  
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+     <h2 id="infohead">Curriculum and Fees</h2>
+        
+    <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	<div class="row">
+        <table><tr><th>FirstName *</th><th>&nbsp;</th><th>LastName *</th></tr>
+            <tr><td><input id="fname" class="input" name="fname" type="text" value="" size="30" /></td><td>&nbsp;</td>
+                <td><input id="lname" class="input" name="lname" type="text" value="" size="30" /><br /></td></tr></table>	
+    </div>
+	<div class="row">
+		<label for="email">Email Address *</label><br />  
+		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+	</div>
+    <div class="row">
+		<label for="phone">Contact Number</label><br />  
+		<input id="phone" class="input" name="phone" type="text" value="" size="30" /><br />
+	</div>
+    <div class="row">
+        <label for="method">Select a method for Class </label><br />  
+		<select name="method">          
+          <option value="inperson">In Person</option>
+         <option value="online">Online-Skype</option>
+        </select><br /> 
+	</div>
+     <div class="row">
+        <label for="skill">Select a level:</label><br />  
+		<select name="skill">
+          <option value="online">Beginner</option>
+          <option value="inperson">Intermediate</option>
+          <option value="inperson">Advanced</option>
+          <option value="inperson">Masters</option>
+        </select><br /> 
+	</div>
+	<div class="row">
+		<label for="message">Your message:</label><br />
+		<textarea id="message" class="input" name="message" rows="7" cols="50"></textarea><br />
+	</div>
+	<input id="submit_button" type="submit" value="Send email" />
+</form>					
+
+    </div>
+</body>
+</html>

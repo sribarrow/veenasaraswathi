@@ -1,0 +1,172 @@
+/*bootstrap*/
+
+.navbar{
+    background: #ECB22A;
+}
+
+/* responsive text queries */
+@media screen and (max-width: 992px) {
+/*
+  p,.btn,input,div,span,h4 {
+    font-size: 95%;
+  }
+*/
+  h1 {
+    font-size: 24px;  
+  }
+  h2 {
+    font-size: 22px;  
+  }
+  h3 {
+    font-size: 18px;  
+  }
+}
+
+@media screen and (max-width: 768px) {
+/*
+  p,.btn,input,div,span,h4 {
+    font-size: 90%;
+  }
+*/
+  h1 {
+    font-size: 20px;  
+  }
+  h2 {
+    font-size: 18px;  
+  }
+  h3 {
+    font-size: 16px;  
+  }
+}
+
+/* make sidebar nav vertical */ 
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+
+.sidebar-nav .navbar ul {
+    float: none;
+    display: block;
+  }
+.sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+    
+.sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 1.3em;
+  }
+    .veena{height:18px;
+    width:18px;
+        
+    }
+    
+.active1{
+    background: #2E376E;
+    color: white;
+    font-weight: bold;
+    
+  }
+    
+.sidebar-nav .navbar li a:hover {
+    background: #2A327A;
+    color:white;
+  }
+}
+
+/*global*/
+*{
+    font-family: "Courier New", Ariel, Helvetica, sans-serif;
+}
+
+/*
+div{
+    margin:0;
+    padding:0;
+}
+*/
+.wrapper{
+    position:fixed;
+    top:10px;
+/*    left: 25px;*/
+}
+
+/*custom*/
+
+.content-title{
+    padding:0;
+    margin:5px;
+    text-align: center;
+    font-size: 1.3em;
+    background: #C85517;
+    height:25px;
+    color:lightgray;
+    font-weight: bold;
+}
+
+.logoimg{
+    padding:0;
+}
+
+.heading{
+    height:250px;
+    background: #5f2929; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(top right, #bf4c0a, #cc591c); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(top right, #bf4c0a, #cc591c); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top right, #bf4c0a, #cc591c); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(top right, #bf4c0a, #cc591c); /* Standard syntax */
+}
+.img-left {
+    float:left;
+}
+.img-right {
+    float:right;
+}
+
+.logodesc{
+    padding-top:25px;
+    margin-left:-10px;
+    text-align: justify;
+}
+
+#line1{
+    font-size:1.1em;
+    font-weight:bold;
+    text-transform: uppercase;
+    color:lightgrey;
+}
+
+#logoinfo{
+    font-size:1em;
+    color:lightgrey;
+    font-style: italic;
+    
+}
+#home-img:hover {
+     -ms-transform: scale(1.5,1.5); /* IE 9 */
+    -webkit-transform: scale(1.5,1.5); /* Safari */
+    transform: scale(1.5,1.5);
+    z-index: 500;
+}
+
+.nofloat{
+    both:clear;
+}
+
+#logo{
+    padding-top:15px;
+}
+
+.ganpat{
+    padding:12px 0 10px 12px;
+    background: #ECB22A;
+}
+
+
+.headerrow {
+    
+}
